@@ -1,0 +1,17 @@
+type: item
+name:
+description:
+details:
+hardness:
+flammability:
+explosiveness:
+radioactivity:
+charge:
+color:
+research: {
+    planet: 2ion
+    parent: core1-origin
+}
+shownPlanets: [
+    2ion
+    ]

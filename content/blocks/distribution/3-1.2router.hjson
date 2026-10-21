@@ -1,0 +1,25 @@
+type: ductRouter
+name: Chute Router
+description: Splits items to 3 directions. Only accepts input from one side, but can be used as a sorter.
+size: 1
+squareSprite: true
+health: 100
+armor: 0
+category: distribution
+requirements: [
+    0-01iron/3
+]
+buildTime: 0.6
+research: {
+    planet: 2ion
+    parent: 3-1.1junction
+}
+researchCost: [
+    0-01iron/10
+]
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]
+//special
+speed: 10

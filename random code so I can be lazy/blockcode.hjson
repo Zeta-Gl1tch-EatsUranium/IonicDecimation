@@ -1,0 +1,26 @@
+type:
+name:
+description:
+details:
+size:
+squareSprite: false
+health:
+armor:
+category:
+requirements: [
+    copper/1
+]
+buildTime:
+research: {
+    planet: 2ion
+    parent:
+    objectives: [
+  ]
+}
+researchCost: [
+    copper/1
+]
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]

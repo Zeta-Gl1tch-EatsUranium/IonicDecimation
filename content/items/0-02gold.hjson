@@ -1,0 +1,22 @@
+type: item
+name: Gold
+description: A soft metal. Very conductive, used in electrical components.
+details:
+'''
+Atomic Number: 79
+Location: Barrens
+Gold being soft is an advantage, letting it easily be manipulated for electrical components.
+'''
+hardness: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: e7d192
+research: {
+    planet: 2ion
+    parent: 0-1iron
+}
+shownPlanets: [
+    2ion
+    ]

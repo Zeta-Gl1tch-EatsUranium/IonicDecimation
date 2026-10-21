@@ -1,0 +1,23 @@
+type: wall
+name: Small Iron Barricade
+description: Protects structures from incoming damage.
+size: 1
+squareSprite: true
+health: 450
+armor: 10
+category: defense
+requirements: [
+    0-01iron/6
+]
+buildTime: 2.5
+research: {
+    planet: 2ion
+    parent: 8.0-1airon
+}
+researchCost: [
+    0-01iron/6
+]
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]

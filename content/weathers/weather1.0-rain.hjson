@@ -1,0 +1,12 @@
+type: rainWeather
+name: "Rain [Ion]"
+color: 069494
+density: 1200
+yspeed: 5
+xspeed: 1
+sizeMin: 7.5
+sizeMax: 35.0
+stroke: 1
+sound: rain
+soundVol: 5
+status: wet

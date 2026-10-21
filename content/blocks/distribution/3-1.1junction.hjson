@@ -1,0 +1,25 @@
+type: junction
+name: Chute Junction
+description: Allows two chutes to cross.
+size: 1
+squareSprite: true
+health: 80
+armor: 0
+category: distribution
+requirements: [
+    0-01iron/3
+]
+buildTime: 0.6
+research: {
+    planet: 2ion
+    parent: 3-1.0chute
+}
+researchCost: [
+    0-01iron/10
+]
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]
+//special
+speed: 10

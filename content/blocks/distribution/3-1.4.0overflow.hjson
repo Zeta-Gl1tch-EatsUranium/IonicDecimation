@@ -1,0 +1,27 @@
+type: overflowDuct
+name: Overflow Chute
+description: Only outputs items to the sides if the front path is blocked.
+size: 1
+squareSprite: true
+health: 100
+armor: 0
+category: distribution
+requirements: [
+    0-01iron/2
+    0-02gold/1
+]
+researchCost: [
+    0-01iron/6
+    0-02gold/4
+]
+buildTime: 0.6
+research: {
+    planet: 2ion
+    parent: 3-1.2router
+}
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]
+//special
+speed: 10

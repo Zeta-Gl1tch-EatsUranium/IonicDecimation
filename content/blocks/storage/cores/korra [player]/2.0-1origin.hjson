@@ -1,0 +1,29 @@
+type: coreBlock
+name: Core: Origin
+description: A small core built solely for interstellar travel.
+details: The pinnacle of Korra technology. Uses advanced radiation generator systems to sustain power.
+size: 3
+squareSprite: false
+health: 5000
+armor: 20
+category: effect
+requirements: [
+    0-01iron/750
+    0-02gold/500
+]
+buildTime: 1200
+alwaysUnlocked: true
+shownPlanets: [
+    2ion
+    ]
+//special
+thrusterLength: 5.5
+unitType: alpha
+isFirstTier: true
+itemCapacity: 2000
+unitCapModifier: 20
+research: {
+    planet: 2ion
+    root: true
+    name: KORRA
+}

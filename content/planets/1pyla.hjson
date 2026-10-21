@@ -1,0 +1,30 @@
+localizedName: Pyla
+mesh: {
+    type: SunMesh
+	divisions: 5
+	octaves: 2.5
+	persistence: 0.7
+	scl: 1
+	pow: 1
+	mag: 1
+	colorScale: 1
+	    colors: [
+ffbf00
+ff9f00
+ff7f00
+ff5f00
+ff3f00
+    ]
+}
+lightColor: ffffff
+bloom: true
+accessible: false
+parent: sun
+radius: 5
+iconColor: ff7f00
+drawOrbit: false
+orbitRadius: 500
+tidalLock: true
+orbitSpacing: 25
+solarSystem: 1pyla
+icon: commandRally

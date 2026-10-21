@@ -1,0 +1,10 @@
+type: steamVent
+name: Granite Steam Vent
+blendGroup: biome1-granite1floor
+parent: biome1-granite1floor
+effect: ventSteam
+effectColor: c0e4ed
+attributes: {
+   steam: 1.0
+   power: 1.0
+}

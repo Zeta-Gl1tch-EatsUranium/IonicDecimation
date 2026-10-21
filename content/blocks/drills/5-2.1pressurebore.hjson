@@ -1,0 +1,44 @@
+type: beamDrill
+name: Pressure Bore
+description: Uses pressure to drill ores from walls.
+size: 2
+squareSprite: false
+health: 250
+armor: 0
+category: production
+requirements: [
+    0-01iron/15
+    0-02gold/5
+]
+buildTime: 120
+research: {
+    planet: 2ion
+    parent: 3-1origin
+}
+researchCost: [
+    0-01iron/15
+    0-02gold/5
+]
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]
+//special
+drillTime: 240
+tier: 1
+range: 4
+hasLiquids: true
+consumes: {
+  liquid: 1-02pressure/0.0833333333
+  power: 0.0833333333
+  liquids: {
+    liquids: [
+        cryofluid/0.04166666665
+        ]
+    optional: true
+    booster: true
+    }
+}
+liquidCapacity: 20
+ambientSound: loopMineBeam
+ambientSoundVolume: 0.75

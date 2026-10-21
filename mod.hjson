@@ -1,0 +1,24 @@
+name: ion
+displayName: "[[]#ffd27e]IONIC DECIMATION[[]]"
+subtitle: "ONE OBJECTIVE: SURVIVE"
+author:
+'''
+[[]#3eb489]Zeta-Gl1tch,[[]]
+CREDITS:
+Echo Fleet's authors
+[a bit of sprites were heavily inspired by Echo Fleet]
+'''
+description:
+'''
+Within the Pyla system lies Ion, a resource-rich planet.
+However, Ion is extremely contested.
+But Ion is your last hope. You were sent with nothing.
+You're running out of fuel.
+
+Take Ion no matter what.
+'''
+version: "0.0.5 [ALPHA]"
+minGameVersion: 156
+hidden: false
+
+repo: "Zeta-Gl1tch-EatsUranium/IonicDecimation"

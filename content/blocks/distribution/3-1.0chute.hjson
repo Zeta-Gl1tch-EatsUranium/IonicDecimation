@@ -1,0 +1,25 @@
+type: duct
+name: Chute
+description: Moves items forward.
+size: 1
+squareSprite: true
+health: 45
+armor: 0
+category: distribution
+requirements: [
+    lead/1
+]
+buildTime: 0.6
+research: {
+    planet: 2ion
+    parent: 2.0-1origin
+}
+alwaysUnlocked: true
+shownPlanets: [
+    2ion
+    ]
+//special
+speed: 10
+bridgeReplacement: 3-1.3bridge
+junctionReplacement: 3-1.1junction
+fullOverride: ion-3-1.0chute-bottom-0

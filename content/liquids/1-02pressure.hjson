@@ -1,0 +1,17 @@
+type: liquid
+name: Pressure
+description: Condensed atmospheric gases used to power machinery.
+gas: true
+heatCapacity: 0.5
+flammability: 0
+explosiveness: 0.5
+viscosity: 0
+temperature: 0.5
+color: f2f6fa
+research: {
+    planet: 2ion
+    parent: 2.0-1origin
+}
+shownPlanets: [
+    2ion
+]

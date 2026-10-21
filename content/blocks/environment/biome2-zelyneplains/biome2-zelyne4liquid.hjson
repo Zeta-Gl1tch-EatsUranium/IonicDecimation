@@ -1,0 +1,14 @@
+type: floor
+name: Liquid Zelyne
+variants: 1
+//special
+isLiquid: true
+drownTime: 30
+liquidDrop: water
+liquidMultiplier: 1
+speedMultiplier: 0.9
+status: wet
+statusDuration: 300
+cacheLayer: tar
+albedo: 0.9
+supportsOverlay: true

@@ -1,0 +1,4 @@
+type: staticWall
+name: Free Gold Wall
+variants: 3
+itemDrop: 0-02gold

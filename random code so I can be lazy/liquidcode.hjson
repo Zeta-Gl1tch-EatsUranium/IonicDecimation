@@ -1,0 +1,15 @@
+type: liquid
+name:
+description:
+details:
+gas:
+heatCapacity:
+flammability:
+explosiveness:
+viscosity:
+temperature:
+color:
+research:
+shownPlanets: [
+    2ion
+]

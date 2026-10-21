@@ -1,0 +1,23 @@
+type: wall
+name: Iron Barricade
+description: Protects structures from incoming damage.
+size: 2
+squareSprite: true
+health: 1800
+armor: 10
+category: defense
+requirements: [
+    0-01iron/24
+]
+buildTime: 10
+research: {
+    planet: 2ion
+    parent: 2.0-1origin
+}
+researchCost: [
+    0-01iron/20
+]
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]

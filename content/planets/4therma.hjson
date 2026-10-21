@@ -1,0 +1,108 @@
+localizedName: Therma
+description:
+'''
+Hot hot hot!
+'''
+alwaysUnlocked: true
+mesh: [
+   {
+    //red rock
+    type: NoiseMesh
+    planet: therma
+    divisions: 3
+    seed: 301
+    radius: 0.725
+    color1: 825d5d
+    color2: 6a4a47
+    octaves: 2
+    persistence: 0.3
+    mag: 1.40
+  }
+  {
+    //lava
+    type: NoiseMesh
+    planet: therma
+    divisions: 3
+    seed: 219
+    radius: 0.750
+    color1: cb6d4b40
+    color2: b3623740
+    octaves: 2
+    persistence: 0.4
+    mag: 1.00
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: therma
+   speed: 2.000
+   radius: 0.15
+   divisions: 5
+   seed: 289
+   color: baa770dd
+   octaves: 5
+   persistence: 0.80
+   scl: 0.90
+   thresh: 0.45
+  }
+  {
+   type: HexSkyMesh
+   planet: therma
+   speed: 3.000
+   radius: 0.2
+   divisions: 5
+   seed: 190
+   color: 2f271bbb
+   octaves: 2
+   persistence: 0.50
+   scl: 0.90
+   thresh: 0.35
+   }
+]
+generator: {
+  octaves: 2
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+orbitRadius: 10
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 7
+orbitSpacing: 1
+radius: 0.800
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.40
+accessible: true
+updateLighting: true
+sectorSeed: 937
+bloom: false
+visible: true
+atmosphereColor: 292825
+iconColor: 292825
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: 1pyla
+solarSystem: 1pyla
+tidalLock: true
+itemWhitelist: [
+]

@@ -1,0 +1,22 @@
+type: item
+name: Iron
+description: A soft metal. Used for structural components.
+details:
+'''
+Atomic Number: 26
+Location: Barrens
+Pure Iron is weak by itself. However, Iron on Ion is riddled with Silica impurities, adding toughness which increases its worth alone.
+'''
+hardness: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: a4c3d4
+research: {
+    planet: 2ion
+    parent: 2.0-1origin
+}
+shownPlanets: [
+    2ion
+    ]

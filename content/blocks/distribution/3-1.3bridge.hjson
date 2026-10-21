@@ -1,0 +1,26 @@
+type: ductBridge
+name: Chute Bridge
+description: Allows for chutes to cross rough terrain.
+size: 1
+squareSprite: true
+health: 125
+armor: 0
+category: distribution
+requirements: [
+    0-01iron/15
+]
+researchCost: [
+    0-01iron/10
+]
+buildTime: 0.6
+research: {
+    planet: 2ion
+    parent: 3-1.2router
+}
+alwaysUnlocked: false
+shownPlanets: [
+    2ion
+    ]
+//special
+speed: 10
+range: 4
